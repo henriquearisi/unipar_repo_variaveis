@@ -1,0 +1,11 @@
+// Variáveis de diferentes tipos
+int numeroInteiro = 10;
+double numeroDecimal = 3.14;
+boolean verdadeiroOuFalso = true;
+char caractere = 'A';
+String texto = "Olá, mundo!";
+long numeroLongo = 1000000000L;
+float numeroFlutuante = 2.71828f;
+byte bytePequeno = 100;
+short numeroCurto = 5000;
+double resultado = numeroInteiro * numeroDecimal;
