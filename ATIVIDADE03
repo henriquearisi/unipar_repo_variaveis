@@ -1,0 +1,20 @@
+public class DadosAluno {
+    public static void main(String[] args) {
+        // Declare as variáveis com os tipos de dados apropriados e atribua valores a elas
+        String nomeAluno = "João";         // Tipo String para armazenar o nome do aluno
+        int idadeAluno = 18;               // Tipo int para armazenar a idade do aluno
+        double notaProva1 = 7.5;           // Tipo double para armazenar a nota da primeira prova
+        double notaProva2 = 8.0;           // Tipo double para armazenar a nota da segunda prova
+        double mediaFinal;                 // Tipo double para armazenar a média final (ainda não atribuído)
+
+        // Atribua um valor à média final (por exemplo, a média das notas das provas)
+        mediaFinal = (notaProva1 + notaProva2) / 2;
+
+        // Imprima os valores das variáveis
+        System.out.println("Nome do Aluno: " + nomeAluno);
+        System.out.println("Idade do Aluno: " + idadeAluno);
+        System.out.println("Nota da Prova 1: " + notaProva1);
+        System.out.println("Nota da Prova 2: " + notaProva2);
+        System.out.println("Média Final: " + mediaFinal);
+    }
+}
