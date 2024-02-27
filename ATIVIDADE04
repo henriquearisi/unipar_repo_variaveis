@@ -1,0 +1,23 @@
+public class EstoqueLojaConveniencia {
+
+    public static void main(String[] args) {
+        // Declaração de variáveis para representar as informações de cada produto
+
+        // 1. Nome do produto
+        String nomeProduto;
+
+        // 2. Categoria do produto (ex: alimentos, bebidas, higiene)
+        String categoriaProduto;
+
+        // 3. Preço unitário do produto
+        double precoUnitario;
+
+        // 4. Quantidade em estoque do produto
+        int quantidadeEmEstoque;
+        
+        // Outras variáveis relevantes para o sistema de gerenciamento de estoque podem ser declaradas aqui.
+        
+        // Exemplo adicional: Código do produto
+        int codigoProduto;
+    }
+}
